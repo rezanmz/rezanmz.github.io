@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reza's personal webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        .content {
+            width: 60%;
+            margin-left: 20%;
+        }
+
+        body {
+            font-family: Arial;
+        }
+
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            width: 60%;
+            margin-left: 20%;
+            align: center;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: middle;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 20px;
+            transition: 0.5s;
+            font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 10px 5%;
+            border: 1px solid #ccc;
+            border-top: none;
+            width: 50%;
+            margin-left: 20%;
+            align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="content">
+
+    <h2>Reza Namazi</h2>
+    <p>Computer Engineering - B.Sc Student<br>Sharif University of Technology - Kish International Campus</p>
+</div>
+
+
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Bio')">Bio</button>
+    <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+    <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+    <button class="tablinks" onclick="openTab(event, 'TeachingExperience')">Teaching Experience</button>
+    <button class="tablinks" onclick="openTab(event, 'WorkExperience')">Work Experience</button>
+    <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
+    <button class="tablinks" onclick="openTab(event, 'Awards')">Awards and Certificates</button>
+    <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+</div>
+
+<div id="Bio" class="tabcontent">
+    <p align="justify"><em><strong>Reza Namazi</strong></em> is a B.Sc student at <em><strong>Sharif University of Technology - Kish
+        International Campus</strong></em>. He is working towards a bachelor's degree in <strong><em>Computer
+        Engineering</em></strong>. Reza is currently working as teaching assistant for <strong>Numerical
+        Methods</strong> course. His main research interests are <strong>Machine Learning</strong>, <strong>Deep
+        Learning</strong>, <strong>Artificial Intelligence</strong>.</p>
+    <p>He is currently working on <strong>"Multigrid Project"</strong> that aims to solve large sparse linear equations
+        efficiently.</p>
+    <p>Reza's hobbies include playing the piano, cycling and bowling.
+    </p>
+</div>
+
+<div id="Education" class="tabcontent">
+    <h4>B.Sc in Computer Engineering</h4>
+    <p>Sharif University of Technology - International Campus, Kish Island, Iran</p>
+    <p><strong>Expected graduation:</strong> Winter 2021</p>
+    <br>
+    <h4>High School Diploma</h4>
+    <p>Shahid Beheshti (NODET*), Ahvaz, Iran</p>
+    <p><strong>Graduation:</strong> Spring 2016</p>
+    <h5>*National Organization for Developing Exceptional Talents</h5>
+</div>
+
+<div id="Projects" class="tabcontent">
+    <h3>Group Projects:</h3>
+    <h4>Multigrid Project</h4>
+    <p>Sharif University of Technology, Kish, Iran - 2017 to Present</p>
+    <p>Optimizing Algebraic Multigrid Methods for large sparse algebraic systems of equations using parallel processing
+        and machine learning techniques under the supervisory of <a href="http://kish.sharif.edu/~msani/">Dr. M.
+            Sani</a>.</p>
+    <br>
+    <h3>Solo Projects:</h3>
+    <h4>Graph Visualization</h4>
+    <p>Given a list of nodes and edges, it is possible to visualize the graph in a 2-dimensional plane in an unlimited
+        number of ways. In this project, I tried to find the <em>"best"</em> representation (aesthetically pleasing) of
+        the given graph using <em><br>force-directed layout algorithm</em>.</p>
+    <br>
+    <h4>Modeling Epidemics</h4>
+    <p>In this project I tried to analyze an epidemic with infection rate &alpha; and recovery rate &beta; in an <em>SIS
+        (Susceptible - Infected - Susceptible)</em> model. Graphing the number of infected and susceptible nodes of the
+        population in different steps of the epidemic reveals the <em>epidemic threshold</em> of the epidemic and much
+        more!</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+    <a href="mailto:rezanmz@ymail.com" target="_top">rezanmz@ymail.com</a>
+    <br>
+    <br>
+    <a href="mailto:reza.namazi@kish.sharif.edu" target="_top">reza.namazi@kish.sharif.edu</a>
+
+</div>
+
+<div id="TeachingExperience" class="tabcontent">
+    <h4>Teaching Assistant</h4>
+    <p>Sharif University of Technology, Kish, Iran - Present</p>
+    <p>Numerical Methods course offered by <a href="http://kish.sharif.edu/~ghahramani/">Dr. A.A. G.Ghahremani</a></p>
+    <br>
+    <h4>Teaching Assistant</h4>
+    <p>Sharif University of Technology, Kish, Iran - October 2019</p>
+    <p>Engineering Probability and Statistics course offered by <a href="http://kish.sharif.edu/~ghahramani/">Dr. A.A.
+        G.Ghahremani</a></p>
+    <br>
+    <h4>Teaching Assistant</h4>
+    <p>Sharif University of Technology, Kish, Iran - March 2019</p>
+    <p>Basics of Programming course offered by <a href="http://kish.sharif.edu/~msani/">Dr. M. Sani</a></p>
+</div>
+
+<div id="WorkExperience" class="tabcontent">
+    <h4>Programmer</h4>
+    <p>Arjan Araye Company, Ahvaz, Iran - 2015 to 2017</p>
+    <p>Worked as a back-end programmer to create a system and an application for managing drugstores. The system is
+        currently used in several drugstores throughout Iran.</p>
+</div>
+
+<div id="Skills" class="tabcontent">
+    <ul>
+        <li><h4>Linux</h4></li>
+        <li><h4>Git</h4></li>
+        <li><h4>Python</h4></li>
+        <li><h4>C++</h4></li>
+        <li><h4>C#</h4></li>
+        <li><h4>VB.net</h4></li>
+        <li><h4>Keras</h4></li>
+        <li><h4>PyTorch</h4></li>
+        <li><h4>CUDA</h4></li>
+        <li><h4>OpenCV</h4></li>
+        <li><h4>OpenCL</h4></li>
+        <li><h4>Miscrosoft SQL Server</h4></li>
+        <li><h4>Web Design (Basic knowledge)</h4></li>
+    </ul>
+</div>
+
+<div id="Awards" class="tabcontent">
+    <h4>Certificate of Appreciation</h4>
+    <p>Top student in Computer Engineering department of Sharif University of Technology - December 2018</p>
+    <br>
+    <h4>Certificate of Participation</h4>
+    <p>IPM School of Cognitive Science (SCS), Tehran, Iran - July 2019</p>
+    <p>Attended IPM summer school covering Machine Learning, Deep Learning, Machine Vision and Reinforcement Learning
+        and passed the evaluation test</p>
+</div>
+
+<script>
+    function openTab(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    document.getElementsByClassName('tablinks')[0].click()
+
+
+</script>
+
+</body>
+</html>
