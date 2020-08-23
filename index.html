@@ -5,7 +5,7 @@
     <title>Reza's personal webpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        .p {
+        p {
             text-align: justify;
         }
 
@@ -64,264 +64,314 @@
 </head>
 
 <body>
+    <div class="content">
 
-<div class="content">
-
-    <h1>Reza Namazi</h1>
-    <h3>B.Sc Student of Computer Engineering<br>Sharif University of Technology - Kish International Campus</h3>
-</div>
+        <h1>Reza Namazi</h1>
+        <h3>B.Sc Student of Computer Engineering<br>Sharif University of Technology - Kish International Campus</h3>
+    </div>
 
 
-<div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'Bio')">Bio</button>
-    <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
-    <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
-    <button class="tablinks" onclick="openTab(event, 'TeachingExperience')">Teaching Experience</button>
-    <button class="tablinks" onclick="openTab(event, 'WorkExperience')">Work Experience</button>
-    <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
-    <button class="tablinks" onclick="openTab(event, 'Awards')">Awards and Certificates</button>
-    <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-</div>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Bio')">Bio</button>
+        <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+        <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+        <button class="tablinks" onclick="openTab(event, 'TeachingExperience')">Teaching Experience</button>
+        <button class="tablinks" onclick="openTab(event, 'WorkExperience')">Work Experience</button>
+        <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
+        <button class="tablinks" onclick="openTab(event, 'Awards')">Awards and Certificates</button>
+        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+    </div>
 
-<div id="Bio" class="tabcontent">
-    <img src="images/reza.jpg" alt="Reza's Picture" style="max-width: 40%; max-height: 40%">
-    <p>
-        My name is <em>Reza Namazi</em>. I'm a <strong><em>B.Sc Computer Engineering</em></strong> student at
-        <strong><em>Sharif University of Technology - Kish International Campus</em></strong>.
-        Currently, I'm working as a teaching assistant to <a href="http://kish.sharif.edu/~ghahramani/" target="_blank">Dr.
-        A.A.
-        G.Ghahremani</a>.
-    </p>
-    <p>
-        My main research interests are <strong><em>Computer Vision</em></strong> and <strong><em>Deep
-        Learning</em></strong>. I believe that Artificial Intelligence is
-        rapidly changing our lives and I would like to be a part of this change.
-    </p>
-    <p>
-        In my leisure time I enjoy playing the piano, watching movies, cycling and bowling.
+    <div id="Bio" class="tabcontent">
+        <img src="images/reza.jpg" alt="Reza's Picture" style="max-width: 40%; max-height: 40%">
+        <p>
+            My name is <em>Reza Namazi</em>. I'm a <strong><em>B.Sc Computer Engineering</em></strong> student at
+            <strong><em>Sharif University of Technology - Kish International Campus</em></strong>.
+        </p>
+        <p>
+            My main research interests are <strong><em>Computer Vision</em></strong>, <strong><em>Deep
+                    Learning</em></strong> and <strong><em>Graph Based Convolutional Neural Networks
+                    (GCN, GAT and etc.)</em></strong>. I believe that Artificial Intelligence is
+            rapidly changing our lives and I would like to be a part of this change.
+        </p>
+        <p>
+            In my leisure time I enjoy playing the piano, watching movies, cycling and bowling.
+            <br>
+            In my free time, I also enjoy programming for fun.
+        </p>
+    </div>
+
+    <div id="Education" class="tabcontent">
+        <h2>B.Sc in Computer Engineering</h2>
+        <p>Sharif University of Technology - International Campus, Kish Island, Iran</p>
+        <p><strong>Expected graduation:</strong> Winter 2021</p>
         <br>
-        In my free time, I also enjoy programming for fun.
-    </p>
-</div>
+        <h2>High School Diploma</h2>
+        <p>Shahid Beheshti (NODET*), Ahvaz, Iran</p>
+        <p><strong>Graduation:</strong> Spring 2016</p>
+        <h5>*National Organization for Developing Exceptional Talents</h5>
+    </div>
 
-<div id="Education" class="tabcontent">
-    <h2>B.Sc in Computer Engineering</h2>
-    <p>Sharif University of Technology - International Campus, Kish Island, Iran</p>
-    <p><strong>Expected graduation:</strong> Winter 2021</p>
-    <br>
-    <h2>High School Diploma</h2>
-    <p>Shahid Beheshti (NODET*), Ahvaz, Iran</p>
-    <p><strong>Graduation:</strong> Spring 2016</p>
-    <h5>*National Organization for Developing Exceptional Talents</h5>
-</div>
+    <div id="Projects" class="tabcontent">
+        <h2>Group Projects:</h2>
+        <h4>Multigrid Project</h4>
+        <p>Sharif University of Technology, Kish, Iran - 2017 to Present [<a href="certificates/multigrid_project.pdf"
+                target="_blank">link</a>]</p>
+        <p>Optimizing Algebraic Multigrid Methods for large sparse algebraic systems of equations using parallel
+            processing
+            and machine learning techniques under the supervisory of <a href="http://kish.sharif.edu/~msani/"
+                target="_blank">Dr. M.Sani</a> and <a href="http://kish.sharif.edu/~ghahramani/" target="_blank">Dr.
+                A.A. G.Ghahremani</a>.</p>
+        <br>
+        <h2>Solo Projects:</h2>
+        <h4>Graph Visualization</h4>
+        <p>
+            Given a list of nodes and edges, it is possible to visualize the graph in a 2-dimensional plane in an
+            unlimited number of ways. In this project, I tried to find the <em>"best"</em> representation (aesthetically
+            pleasing)
+            of the given graph using <em><br>force-directed layout algorithm</em>.
+        </p>
+        <br>
+        <h4>Modeling Epidemics</h4>
+        <p>
+            In this project I tried to analyze an epidemic with infection rate &alpha; and
+            recovery rate &beta; in an
+            <em>SIS
+                (Susceptible - Infected - Susceptible)</em> model. Graphing the number of infected and susceptible nodes
+            of the
+            population in different steps of the epidemic reveals the <em>epidemic threshold</em> of the epidemic and
+            much
+            more!
+        </p>
+    </div>
 
-<div id="Projects" class="tabcontent">
-    <h2>Group Projects:</h2>
-    <h4>Multigrid Project</h4>
-    <p>Sharif University of Technology, Kish, Iran - 2017 to Present [<a href="certificates/multigrid_project.pdf"
-                                                                         target="_blank">link</a>]</p>
-    <p>Optimizing Algebraic Multigrid Methods for large sparse algebraic systems of equations using parallel processing
-        and machine learning techniques under the supervisory of <a href="http://kish.sharif.edu/~msani/"
-                                                                    target="_blank">Dr. M.
-            Sani</a>.</p>
-    <br>
-    <h2>Solo Projects:</h2>
-    <h4>Graph Visualization</h4>
-    <p>Given a list of nodes and edges, it is possible to visualize the graph in a 2-dimensional plane in an unlimited
-        number of ways. In this project, I tried to find the <em>"best"</em> representation (aesthetically pleasing) of
-        the given graph using <em><br>force-directed layout algorithm</em>.</p>
-    <br>
-    <h4>Modeling Epidemics</h4>
-    <p>In this project I tried to analyze an epidemic with infection rate &alpha; and recovery rate &beta; in an <em>SIS
-        (Susceptible - Infected - Susceptible)</em> model. Graphing the number of infected and susceptible nodes of the
-        population in different steps of the epidemic reveals the <em>epidemic threshold</em> of the epidemic and much
-        more!</p>
-</div>
-
-<div id="Contact" class="tabcontent">
-    <h3>You can contact me via:</h3>
-    <ul>
-        <strong>Email:</strong>
+    <div id="Contact" class="tabcontent">
+        <h3>You can contact me via:</h3>
         <ul>
-            <li><a href="mailto:rezanmz@ymail.com" target="_top">rezanmz@ymail.com</a></li>
-            <li><a href="mailto:reza.namazi@kish.sharif.edu" target="_top">reza.namazi@kish.sharif.edu</a></li>
+            <strong>Email: </strong><a href="mailto:rezanmz@ymail.com" target="_top">rezanmz@ymail.com</a>
+            <br><br>
+            <strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/reza-namazi-b37b9a10a/"
+                target="_blank">Profile</a>
+            <br><br>
+            <strong>Telegram: </strong><a href="https://t.me/rezanmz" target="_blank">@rezanmz</a>
         </ul>
-        <br><br>
-        <strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/reza-namazi-b37b9a10a/"
-                                      target="_blank">Profile</a>
-        <br><br>
-        <strong>Telegram: </strong><a href="https://t.me/rezanmz" target="_blank">@rezanmz</a>
-    </ul>
 
-</div>
+    </div>
 
-<div id="TeachingExperience" class="tabcontent">
-    <h2>Teaching Assistant</h2>
-    <p>Sharif University of Technology, Kish, Iran - Present</p>
-    <p>Numerical Methods course offered by <a href="http://kish.sharif.edu/~ghahramani/" target="_blank">Dr. A.A.
-        G.Ghahremani</a></p>
-    <br>
-    <h2>Teaching Assistant</h2>
-    <p>Sharif University of Technology, Kish, Iran - October 2019 [<a href="certificates/stats_and_probability_TA.pdf"
-                                                                      target="_blank">link</a>]</p>
-    <p>Engineering Probability and Statistics course offered by <a href="http://kish.sharif.edu/~ghahramani/"
-                                                                   target="_blank">Dr. A.A.
-        G.Ghahremani</a></p>
-    <br>
-    <h2>Teaching Assistant</h2>
-    <p>Sharif University of Technology, Kish, Iran - March 2019 [<a href="certificates/programming_TA.pdf"
-                                                                    target="_blank">link</a>]</p>
-    <p>Basics of Programming course offered by <a href="http://kish.sharif.edu/~msani/" target="_blank">Dr. M. Sani</a>
-    </p>
-</div>
+    <div id="TeachingExperience" class="tabcontent">
+        <h2>Teaching Assistant</h2>
+        <p>Sharif University of Technology, Kish, Iran - March 2019</p>
+        <p>Numerical Methods course offered by <a href="http://kish.sharif.edu/~ghahramani/" target="_blank">Dr. A.A.
+                G.Ghahremani</a></p>
+        <br>
+        <h2>Teaching Assistant</h2>
+        <p>Sharif University of Technology, Kish, Iran - October 2019 [<a
+                href="certificates/stats_and_probability_TA.pdf" target="_blank">link</a>]</p>
+        <p>Engineering Probability and Statistics course offered by <a href="http://kish.sharif.edu/~ghahramani/"
+                target="_blank">Dr. A.A.
+                G.Ghahremani</a></p>
+        <br>
+        <h2>Teaching Assistant</h2>
+        <p>Sharif University of Technology, Kish, Iran - March 2019 [<a href="certificates/programming_TA.pdf"
+                target="_blank">link</a>]</p>
+        <p>Basics of Programming course offered by <a href="http://kish.sharif.edu/~msani/" target="_blank">Dr. M.
+                Sani</a>
+        </p>
+    </div>
 
-<div id="WorkExperience" class="tabcontent">
-    <h2>Programmer</h2>
-    <p>Arjan Araye Company, Ahvaz, Iran - 2015 to 2017</p>
-    <p>Worked as a back-end programmer to create a system and an application for managing drugstores. The system is
-        currently used in several drugstores throughout Iran.</p>
-</div>
+    <div id="WorkExperience" class="tabcontent">
+        <h2>Programmer</h2>
+        <p>Arjan Araye Company, Ahvaz, Iran - 2015 to 2017</p>
+        <p>Worked as a back-end programmer to create a system and an application for managing drugstores. The system is
+            currently used in several drugstores throughout Iran.</p>
+    </div>
 
-<div id="Skills" class="tabcontent">
-    <div style="display: flex">
-        <div style="flex: 50%">
-            <h2>Programming Skills</h2>
-            <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
-                width="50%"
-                align="left">
-            <ul style="padding: 0; list-style-type: armenian">
-                <ul style="padding: 0; list-style-type: none;">
-                    <li><h4>Python</h4></li>
-                    <li><h4>C++</h4></li>
-                    <li><h4>C#</h4></li>
-                    <li><h4>VB.net</h4></li>
+    <div id="Skills" class="tabcontent">
+        <div style="display: flex">
+            <div style="flex: 50%">
+                <h2>Programming Skills</h2>
+                <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
+                    width="50%" align="left">
+                <ul style="padding: 0; list-style-type: armenian">
+                    <ul style="padding: 0; list-style-type: none;">
+                        <li>
+                            <h4>Python</h4>
+                        </li>
+                        <li>
+                            <h4>C++</h4>
+                        </li>
+                        <li>
+                            <h4>C#</h4>
+                        </li>
+                        <li>
+                            <h4>VB.net</h4>
+                        </li>
+                    </ul>
                 </ul>
-            </ul>
-        </div>
-        <div style="flex: 50%;">
-            <h2>Project Management and Teamwork Skills</h2>
-            <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
-                width="50%"
-                align="left">
-            <ul style="padding: 0; list-style-type: none;">
-                <li><h4>Agile software development (Scrum)</h4></li>
-                <li><h4>Version control systems (git, Microsoft TFS)</h4></li>
-                <li><h4>Rapid Prototyping</h4></li>
-            </ul>
-        </div>
-    </div>
-    <div style="display: flex">
-        <div style="flex: 50%">
-            <h2>Parallel Processing and Hardware Acceleration Skills</h2>
-            <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
-                width="50%"
-                align="left">
-            <ul style="padding: 0; list-style-type: armenian">
+            </div>
+            <div style="flex: 50%;">
+                <h2>Project Management and Teamwork Skills</h2>
+                <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
+                    width="50%" align="left">
                 <ul style="padding: 0; list-style-type: none;">
-                    <li><h4>CUDA</h4></li>
-                    <li><h4>OpenCL</h4></li>
+                    <li>
+                        <h4>Agile software development (Scrum)</h4>
+                    </li>
+                    <li>
+                        <h4>Version control systems (git, Microsoft TFS)</h4>
+                    </li>
+                    <li>
+                        <h4>Rapid Prototyping</h4>
+                    </li>
                 </ul>
-            </ul>
+            </div>
         </div>
-        <div style="flex: 50%;">
-            <h2>Data Mining Skills</h2>
-            <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
-                width="50%"
-                align="left">
-            <ul style="padding: 0; list-style-type: none;">
-                <li><h4>pandas</h4></li>
-                <li><h4>numpy</h4></li>
-                <li><h4>scikit-learn</h4></li>
-            </ul>
-        </div>
-    </div>
-    <div style="display: flex">
-        <div style="flex: 50%">
-            <h2>Computer Vision and Deep Learning Skills</h2>
-            <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
-                width="50%"
-                align="left">
-            <ul style="padding: 0; list-style-type: armenian">
+        <div style="display: flex">
+            <div style="flex: 50%">
+                <h2>Parallel Processing and Hardware Acceleration Skills</h2>
+                <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
+                    width="50%" align="left">
+                <ul style="padding: 0; list-style-type: armenian">
+                    <ul style="padding: 0; list-style-type: none;">
+                        <li>
+                            <h4>CUDA</h4>
+                        </li>
+                        <li>
+                            <h4>OpenCL</h4>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div style="flex: 50%;">
+                <h2>Data Mining Skills</h2>
+                <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
+                    width="50%" align="left">
                 <ul style="padding: 0; list-style-type: none;">
-                    <li><h4>OpenCV</h4></li>
-                    <li><h4>Keras</h4></li>
-                    <li><h4>PyTorch</h4></li>
-                    <li><h4>Convolutional Neural Networks</h4></li>
-                    <li><h4>Recurrent Neural Networks</h4></li>
+                    <li>
+                        <h4>pandas</h4>
+                    </li>
+                    <li>
+                        <h4>numpy</h4>
+                    </li>
+                    <li>
+                        <h4>scikit-learn</h4>
+                    </li>
                 </ul>
-            </ul>
+            </div>
         </div>
-        <div style="flex: 50%;">
-            <h2>Database Skills</h2>
-            <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
-                width="50%"
-                align="left">
-            <ul style="padding: 0; list-style-type: none;">
-                <li><h4>Postgresql</h4></li>
-                <li><h4>MySQL</h4></li>
-                <li><h4>Microsoft SQL Server</h4></li>
-            </ul>
+        <div style="display: flex">
+            <div style="flex: 50%">
+                <h2>Computer Vision and Deep Learning Skills</h2>
+                <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
+                    width="50%" align="left">
+                <ul style="padding: 0; list-style-type: armenian">
+                    <ul style="padding: 0; list-style-type: none;">
+                        <li>
+                            <h4>OpenCV</h4>
+                        </li>
+                        <li>
+                            <h4>Keras</h4>
+                        </li>
+                        <li>
+                            <h4>PyTorch</h4>
+                        </li>
+                        <li>
+                            <h4>Convolutional Neural Networks</h4>
+                        </li>
+                        <li>
+                            <h4>Recurrent Neural Networks</h4>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div style="flex: 50%;">
+                <h2>Database Skills</h2>
+                <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
+                    width="50%" align="left">
+                <ul style="padding: 0; list-style-type: none;">
+                    <li>
+                        <h4>Postgresql</h4>
+                    </li>
+                    <li>
+                        <h4>MySQL</h4>
+                    </li>
+                    <li>
+                        <h4>Microsoft SQL Server</h4>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <div style="display: flex">
+            <div style="flex: 50%;">
+                <h2>Web Development Skills</h2>
+                <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
+                    width="50%" align="left">
+                <ul style="padding: 0; list-style-type: none;">
+                    <li>
+                        <h4>HTML, CSS, JQuery (Basic knowledge)</h4>
+                    </li>
+                    <li>
+                        <h4>Django Web Framework</h4>
+                    </li>
+                    <li>
+                        <h4>API</h4>
+                    </li>
+                    <li>
+                        <h4>Nginx</h4>
+                    </li>
+                </ul>
+            </div>
+            <div style="flex: 50%;">
+                <h2>Other Skills</h2>
+                <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
+                    width="50%" align="left">
+                <ul style="padding: 0; list-style-type: none;">
+                    <li>
+                        <h4>Linux Server</h4>
+                    </li>
+                    <li>
+                        <h4>Deployment</h4>
+                    </li>
+                    <li>
+                        <h4>Docker</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
     </div>
-    <div style="display: flex">
-        <div style="flex: 50%;">
-            <h2>Web Development Skills</h2>
-            <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
-                width="50%"
-                align="left">
-            <ul style="padding: 0; list-style-type: none;">
-                <li><h4>HTML, CSS, JQuery (Basic knowledge)</h4></li>
-                <li><h4>Django Web Framework</h4></li>
-                <li><h4>API</h4></li>
-                <li><h4>Nginx</h4></li>
-            </ul>
-        </div>
-        <div style="flex: 50%;">
-            <h2>Other Skills</h2>
-            <hr style="margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 2px solid rgba(0,0,0,0.2);"
-                width="50%"
-                align="left">
-            <ul style="padding: 0; list-style-type: none;">
-                <li><h4>Linux Server</h4></li>
-                <li><h4>Deployment</h4></li>
-                <li><h4>Docker</h4></li>
-            </ul>
-        </div>
+
+    <div id="Awards" class="tabcontent">
+        <h2>Certificate of Participation</h2>
+        <p>IPM School of Cognitive Science (SCS), Tehran, Iran - July 2019 [<a href="certificates/ipm_certificate.jpg"
+                target="_blank">link</a>]</p>
+        <p>Attended IPM summer school covering Machine Learning, Deep Learning, Machine Vision and Reinforcement
+            Learning
+            and passed the evaluation test</p>
+        <br>
+        <h2>Certificate of Appreciation</h2>
+        <p>Top student in Computer Engineering department of Sharif University of Technology - December 2018 [<a
+                href="certificates/certificate_of_appreciation.pdf" target="_blank">link</a>]</p>
     </div>
-    <br>
-</div>
 
-<div id="Awards" class="tabcontent">
-    <h2>Certificate of Appreciation</h2>
-    <p>Top student in Computer Engineering department of Sharif University of Technology - December 2018 [<a href="certificates/certificate_of_appreciation.pdf"
-                                                                                                             target="_blank">link</a>]</p>
-    <br>
-    <h2>Certificate of Participation</h2>
-    <p>IPM School of Cognitive Science (SCS), Tehran, Iran - July 2019 [<a href="certificates/ipm_certificate.jpg"
-                                                                           target="_blank">link</a>]</p>
-    <p>Attended IPM summer school covering Machine Learning, Deep Learning, Machine Vision and Reinforcement Learning
-        and passed the evaluation test</p>
-</div>
-
-<script>
-    function openTab(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
+    <script>
+        function openTab(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
         }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
 
-    document.getElementsByClassName('tablinks')[0].click()
-
-
-</script>
+        document.getElementsByClassName('tablinks')[0].click()
+    </script>
 
 </body>
+
 </html>
