@@ -1,3 +1,4 @@
-# Live website
-1 - [rezanmz.com](http://rezanmz.com/)
-2 - [rezanmz.ir](http://rezanmz.ir/)
+# My Personal Portfolio
+## Live website
+* [rezanmz.com](http://rezanmz.com/)
+* [kish.sharif.edu/~reza.namazi/](http://kish.sharif.edu/~reza.namazi/)
