@@ -5,7 +5,7 @@ draft: false
 headless: true
 
 full_name: "Reza Namazi"
-# cv: "cv.pdf"
+cv: "CV.pdf"
 # set to false if you don't want to show your blog
 blog: false
 
