@@ -44,4 +44,4 @@ I recently completed my undergraduate studies in Computer Engineering at the Sha
 
 Currently, I am working on applying graph neural networks to natural language processing under the supervision of [Dr Hamidreza Mahyar][1].
 
-[1]: https://www.eng.mcmaster.ca/people/faculty/hamidreza-mahyar
+[1]: https://mahyarh.com/
