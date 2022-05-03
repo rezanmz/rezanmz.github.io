@@ -11,7 +11,7 @@ default_news_icon: "file-text"
 num_news: 10
 
 news_items:
-  - text: "I was awarded the prestigious Vector Scholarship in AI 2022-2023"
+  - text: "I was awarded the prestigious Vector Scholarship in AI 2022-23"
     link: https://vectorinstitute.ai/scholarship
     extra_text: "April 2022"
     date: 2022-04-21
