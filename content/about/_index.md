@@ -26,11 +26,16 @@ interests:
 
 affiliations:
   - affiliation:
-      title: "B.Sc."
-      name: "Sharif University of Technology - Kish Int. Campus"
-      email: "reza.namazi@kish.sharif.edu"
+      title: "M.A.Sc."
+      name: "McMaster University"
+      email: "namazir@mcmaster.ca"
 
 academia:
+  - course:
+      degree: "M.A.Sc."
+      institution: "McMaster University"
+      major: "Computational Science and Engineering"
+      start_date: "2022"
   - course:
       degree: "B.Sc."
       institution: "Sharif University of Technology - Kish Int. Campus"
