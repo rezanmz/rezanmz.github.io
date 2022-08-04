@@ -12,7 +12,7 @@ blog: false
 socials:
   twitter: "rezanmz"
   github: "rezanmz"
-  linkedin: "reza-namazi-b37b9a10a"
+  linkedin: "rezanmz"
   google_scholar: "citations?user=u3dw2nIAAAAJ"
 #   facebook: "YOUR_NAME"
 #   twitch: "YOUR_NAME"
