@@ -11,6 +11,14 @@ default_news_icon: "file-text"
 num_news: 10
 
 news_items:
+  - text: "I joined EthicalAI as Machine Learning Associate as part of Vector Institute's FastLane program"
+    link: https://ethicalai.ca/
+    extra_text: "January 2024"
+    date: 2024-01-15
+  - text: "I joined BASF SE as a Research Intern through Mitacs Accelerate program"
+    link: https://www.basf.com/ca/en.html
+    extra_text: "January 2023"
+    date: 2023-01-01
   - text: "I was awarded the prestigious Vector Scholarship in AI 2022-23"
     link: https://vectorinstitute.ai/scholarship
     extra_text: "April 2022"
